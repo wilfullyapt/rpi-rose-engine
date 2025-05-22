@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "rpi-rose-engine"
+version = "0.1.0"
+description = "Python GUI driven electrical Rose Machine using vector rosettes to drive patterns"
+authors = ["William Mawhinney <wilmawhinney@gmail.com>", "Rob Litchy"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "rpi_rose_engine"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<4.0"
+svg-path = "^6.3"
+shapely = "^2.0.0"
+rpi-gpio = "^0.7.1"
+
+[tool.poetry.scripts]
+rpi-rose-engine = "scripts.main:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
