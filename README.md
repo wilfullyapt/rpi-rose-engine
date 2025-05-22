@@ -30,4 +30,4 @@ poetry run rpi-rose-engine
 > This program uses a `mock_gpio.py` module for testing and development on non-Raspberry Pi Debian systems.
 
 ## Initial Results
-![Working result](resources/init_vibe_code_results.png)
+![Working result](resources/init_vibe_code_result.png)
